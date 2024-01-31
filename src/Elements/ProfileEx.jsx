@@ -14,7 +14,7 @@ export default function ProfileEx({ name, img }) {
         alt={name}
       />
       <div className="flex flex-col items-start justify-around h-full mx-6">
-        <h1 className="text-3xl font-black">{name}</h1>
+        <h1 className="text-2xl font-black">{name}</h1>
         <p className="my-2 text-sm text-black">Angkatan 2009</p>
         <p className="text-sm text-slate-400">
           {name} adalah seorang Frontend Web Developer yang berada di Jepang

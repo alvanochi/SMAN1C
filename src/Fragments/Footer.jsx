@@ -14,10 +14,10 @@ export default function Footer() {
         </div>
         <div className="w-full md:w-1/2 md:text-end">
           <div className="flex mb-2 md:mb-6 md:justify-end">
-            <img src="/ig.png" alt="" />
-            <img src="/ig.png" alt="" />
-            <img src="/ig.png" alt="" />
-            <img src="/ig.png" alt="" />
+            <img src="/facebook.png" className="w-8 mr-2" alt="Facebook" />
+            <img src="/twitter.png" className="w-8 mr-2" alt="Twitter" />
+            {/* <img src="/ig.png" className="w-8 mr-2" alt="Instagram" /> */}
+            <img src="/youtube.png" className="w-8 mr-2" alt="Youtube" />
           </div>
           <h2 className="text-lg font-semibold">
             Dibuat Oleh{" "}

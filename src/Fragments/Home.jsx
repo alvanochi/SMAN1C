@@ -25,7 +25,7 @@ const Home = () => {
           </Button>
           <Button
             classname={
-              "outline-blue-700 hover:outline-blue-400 outline outline-1 hover:text-blue-400 text-blue-700"
+              "outline-blue-700 hover:outline-blue-400 outline outline-1 hover:text-blue-400 text-blue-800"
             }
           >
             Video {">"}
@@ -37,8 +37,8 @@ const Home = () => {
           </p>
           <div className="flex mt-[6px] ml-4">
             <img src="/fb.png" className="w-4 h-4" alt="Facebook" />
-            <img src="/fb.png" className="w-4 h-4 mx-2" alt="Facebook" />
-            <img src="/fb.png" className="w-4 h-4" alt="Facebook" />
+            <img src="/twit.png" className="w-4 h-4 mx-2" alt="Twitter" />
+            <img src="/yt.png" className="w-4 h-4" alt="Youtube" />
           </div>
         </div>
       </motion.div>
@@ -51,14 +51,14 @@ const Home = () => {
         transition={{ duration: 0.5 }}
         className="relative w-full select-none md:hidden lg:block lg:px-16 lg:w-1/2"
       >
-        <div className="absolute left-0 w-56 p-3 text-center bg-white rounded-lg bottom-24">
-          <p className="text-sm italic font-bold font-poppins">
+        <div className="absolute left-0 w-48 p-3 text-center bg-white rounded-lg lg:w-56 bottom-24">
+          <p className="text-xs italic font-bold lg:text-sm font-poppins">
             “ Belajar Itu Menyenangkan kuncinya jangan pernah menyerah oleh
             apapun itu ”
           </p>
         </div>
 
-        <div className="absolute right-0 flex p-3 bg-white rounded-lg w-60 font-poppins top-24">
+        <div className="absolute right-0 flex p-3 bg-white rounded-lg w-52 lg:w-60 font-poppins top-24">
           <img
             src="/marion.png"
             alt="Marion Alexis"
@@ -72,7 +72,7 @@ const Home = () => {
               <img src="/star.png" alt="Star" />
               <img src="/star.png" alt="Star" />
             </div>
-            <h1 className="my-2 text-xs font-bold">
+            <h1 className="my-1 text-xs font-bold ">
               Jika Ingin Sukses Belajarlah bersabar
             </h1>
             <p className="text-xs text-slate-400">Ceo Marion Lexis</p>

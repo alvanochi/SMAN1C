@@ -15,13 +15,13 @@ export default function CardReason() {
     },
     {
       id: 3,
-      img: "/pc.png",
+      img: "/pengajar.png",
       title: "Pengajar Kompeten",
       desc: "Guru terbaik dengan pengalaman yang menjanjikan",
     },
     {
       id: 4,
-      img: "/lingkungan.png",
+      img: "/kerjasama.png",
       title: "Kerja Sama Luas",
       desc: "Dapat kesempatan kerja yang lebih terjamin",
     },
