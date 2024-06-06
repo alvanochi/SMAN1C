@@ -17,8 +17,8 @@ export default function ProfileEx({ name, img }) {
         <h1 className="text-2xl font-black">{name}</h1>
         <p className="my-2 text-sm text-black">Angkatan 2009</p>
         <p className="text-sm text-slate-400">
-          {name} adalah seorang Frontend Web Developer yang berada di Jepang
-          saat ini dia adalah salah satu alumni yang berprestasi.
+          {name} adalah seorang Frontend Web Developer yang berada di Ohio saat
+          ini dia adalah salah satu alumni yang berprestasi.
         </p>
         <a href="#" className="my-4 text-xs font-semibold text-blue-700">
           Baca Selengkapnya

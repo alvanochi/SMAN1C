@@ -38,7 +38,8 @@ export default function CardDoc() {
         {data.map((item) => (
           <div
             key={item.id}
-            className={`flex w-[250px] items-end h-80 rounded-md bg-[${item.img}] bg-cover grayscale hover:grayscale-0 cursor-pointer transition duration-300`}
+            className={`flex w-[250px] items-end h-80 rounded-md bg-cover grayscale hover:grayscale-0 cursor-pointer transition duration-300`}
+            style={{ backgroundImage: item.img }}
           >
             <div className="w-full px-4 py-2 h-1/3 bg-slate-100/70">
               <h3 className="text-lg font-bold">{item.title}</h3>

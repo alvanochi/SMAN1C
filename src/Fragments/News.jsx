@@ -13,7 +13,7 @@ export default function News() {
       </Header>
       <div className="flex justify-center">
         <Button
-          classname={"bg-blue-700 mt-12 hover:bg-blue-500"}
+          classname={"bg-blue-700 mt-12 hover:bg-blue-500 text-white"}
           children={"Semua Berita"}
         />
       </div>

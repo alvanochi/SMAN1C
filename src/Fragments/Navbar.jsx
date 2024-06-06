@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
 import Button from "../Elements/Button";
 import List from "../Elements/List";
 
@@ -16,7 +17,9 @@ const Navbar = () => {
           <List variants={`flex`} />
         </div>
         <div className="hidden ml-12 lg:block">
-          <Button classname={"bg-blue-700 hover:bg-blue-500"}>Contact</Button>
+          <Button classname={"bg-blue-700 hover:bg-blue-500 text-white"}>
+            Contact
+          </Button>
         </div>
         <div className="block lg:hidden">
           <button
@@ -40,11 +43,14 @@ const Navbar = () => {
       </div>
       <div className="w-full lg:hidden">
         {isShow && (
-          <>
+          <motion.div
+            initial={{ opacity: 0, translateY: -100 }}
+            animate={{ opacity: 1, translateY: 0 }}
+          >
             {/* {" "} */}
             <List />
             {/* <Button classname={"bg-blue-700 hover:bg-blue-500"}>Contact</Button> */}
-          </>
+          </motion.div>
         )}
       </div>
     </div>

@@ -10,7 +10,7 @@ export default function Graduate() {
       />
       <div className="flex flex-wrap w-full py-16">
         <ProfileEx name={"Alvano Hastagina ST"} img={"/wilyam.png"} />
-        <ProfileEx name={"Windi Alex Kusmawati"} img={"/windi.png"} />
+        <ProfileEx name={"Gisellia Maharani S.Kom"} img={"/windi.png"} />
       </div>
     </>
   );

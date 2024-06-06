@@ -38,7 +38,7 @@ const Profile = () => {
               melengkapi pembelajarannya di sekola
             </span>
           </p>
-          <Button classname={"bg-blue-700 mt-8 hover:bg-blue-500"}>
+          <Button classname={"bg-blue-700 mt-8 hover:bg-blue-500 text-white"}>
             Baca Selanjutnya {">"}
           </Button>
         </motion.div>

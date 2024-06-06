@@ -20,7 +20,7 @@ const Home = () => {
           internasional
         </p>
         <div className="flex my-8">
-          <Button classname={"bg-blue-700 hover:bg-blue-500 mr-4"}>
+          <Button classname={"bg-blue-700 text-white hover:bg-blue-500 mr-4"}>
             Get Started {">"}
           </Button>
           <Button

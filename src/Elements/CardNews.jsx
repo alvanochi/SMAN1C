@@ -97,7 +97,7 @@ const CardNews = () => {
       <AnimatePresence>
         {selectedId && (
           <motion.div
-            // onClick={() => setSelectedId(null)}
+            onClick={() => setSelectedId(null)}
             key={selectedId}
             className="fixed inset-0 z-40 flex items-center justify-center bg-black/50"
             initial={{ opacity: 0 }}
@@ -107,6 +107,7 @@ const CardNews = () => {
             <motion.div
               className="relative z-50 p-6 bg-white rounded-md shadow-md w-72 lg:w-80"
               layoutId={selectedId}
+              onClick={(e) => e.stopPropagation()}
             >
               {data.map(
                 (item) =>
@@ -121,12 +122,6 @@ const CardNews = () => {
                           {item.title}
                         </motion.h3>
                       </motion.div>
-                      <motion.button
-                        onClick={() => setSelectedId(null)}
-                        className="absolute top-0 right-0 px-3 py-2 m-2 text-xs font-bold text-blue-700 bg-blue-300 rounded-full"
-                      >
-                        X
-                      </motion.button>
                       <motion.p className="text-xs text-slate-600">
                         {item.desc}
                       </motion.p>
